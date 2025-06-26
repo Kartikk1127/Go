@@ -5,3 +5,4 @@
 4. For looping, you have to use "for" loop. Nothing else is there.
 5. Go does not have ternary operator.
 6. You can pass functions as a parameter in another function.
+7. You can return multiple values from a function in Go
