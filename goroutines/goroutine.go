@@ -33,5 +33,6 @@ func main() {
 		}()
 	}
 
-	time.Sleep(time.Second * 2)
+	time.Sleep(time.Second * 2) // but is it safe to put sleep like this and block your main method? Of course not.
+	// checkout waitgroupingoroutine.go to fix the problem
 }
