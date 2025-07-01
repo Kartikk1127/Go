@@ -6,3 +6,4 @@
 5. Go does not have ternary operator.
 6. You can pass functions as a parameter in another function.
 7. You can return multiple values from a function in Go
+8. Enums in Go are implemented using Const.
