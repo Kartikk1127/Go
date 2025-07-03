@@ -10,7 +10,7 @@ import (
 // imagine there are multiple goroutines running, you want to pass some data from one goroutine to another goroutine. It can be done with the help of the channels.
 // communication between 2 coroutines can be done with the help of channels.
 // deadlock is a concept of operating system, when multiple processes running concurrently hold a resource. Other processes are waiting for this resource but the first isn't releasing as it is waiting for another resource which in turn is held by the process waiting for the first resource. Deadlock!!
-
+// this can be avoided using some sleep methods?
 func processNum(numChan chan int) {
 	// defer wg.Done()
 
